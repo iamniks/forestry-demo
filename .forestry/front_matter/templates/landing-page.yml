@@ -78,5 +78,14 @@ fields:
   type: text
   hidden: true
   default: home
+- type: blocks
+  label: 'ТУЦ '
+  name: tuc_ww
+  description: hello
+  template_types:
+  - posts
+  config:
+    max: '2'
+    min: '1'
 pages:
 - index.md
