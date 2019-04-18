@@ -5,18 +5,22 @@ fields:
 - type: text
   name: title
   label: title
+  default: Title
 - type: datetime
   name: date
   label: date
+  default: 2019-04-17 07:00:00 +0000
 - type: file
   name: banner_image
   label: banner_image
 - type: text
   name: heading
   label: heading
+  default: HI
 - type: text
   name: sub_heading
   label: sub_heading
+  default: hello
 - type: text
   name: layout
   label: layout
